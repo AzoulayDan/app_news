@@ -8,20 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		371B1DDA1ED2D19400236F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DD91ED2D19400236F5E /* AppDelegate.swift */; };
-		371B1DDC1ED2D19400236F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DDB1ED2D19400236F5E /* ViewController.swift */; };
-		371B1DDF1ED2D19400236F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DDD1ED2D19400236F5E /* Main.storyboard */; };
 		371B1DE11ED2D19400236F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DE01ED2D19400236F5E /* Assets.xcassets */; };
 		371B1DE41ED2D19400236F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DE21ED2D19400236F5E /* LaunchScreen.storyboard */; };
+		371B1E041ED2E82A00236F5E /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B1E031ED2E82A00236F5E /* ConnexionViewController.swift */; };
+		371B1E061ED2E84200236F5E /* ConnexionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371B1E051ED2E84200236F5E /* ConnexionViewController.xib */; };
+		371B1E0C1ED2E95B00236F5E /* ConcetCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B1E081ED2E95B00236F5E /* ConcetCompte.swift */; };
+		371B1E0D1ED2E95B00236F5E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B1E091ED2E95B00236F5E /* CoreDataManager.swift */; };
+		371B1E0E1ED2E95B00236F5E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 371B1E0A1ED2E95B00236F5E /* Model.xcdatamodeld */; };
+		37B3B0A91ED2FA2F00EB0430 /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0A81ED2FA2F00EB0430 /* TextFieldManager.swift */; };
+		37B3B0AD1ED315F100EB0430 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0AC1ED315F100EB0430 /* RequestManager.swift */; };
+		37B3B0AF1ED3164C00EB0430 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0AE1ED3164C00EB0430 /* SwiftyJSON.swift */; };
+		37B3B0B91ED399E700EB0430 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0B71ED399E700EB0430 /* NewsTableViewController.swift */; };
+		37B3B0BA1ED399E700EB0430 /* NewsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0B81ED399E700EB0430 /* NewsTableViewController.xib */; };
+		37B3B0BD1ED39CB900EB0430 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0BC1ED39CB900EB0430 /* InscriptionViewController.swift */; };
+		37B3B0BF1ED39CEB00EB0430 /* InscriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0BE1ED39CEB00EB0430 /* InscriptionViewController.xib */; };
+		37B3B0C31ED3A3D800EB0430 /* ChoiceSportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0C11ED3A3D800EB0430 /* ChoiceSportsTableViewController.swift */; };
+		37B3B0C41ED3A3D800EB0430 /* ChoiceSportsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0C21ED3A3D800EB0430 /* ChoiceSportsTableViewController.xib */; };
+		37B3B0C91ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0C71ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.swift */; };
+		37B3B0CA1ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0C81ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.xib */; };
+		37B3B0CE1ED3B91B00EB0430 /* selectedGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0CC1ED3B91B00EB0430 /* selectedGreen.png */; };
+		37B3B0CF1ED3B91B00EB0430 /* selectedWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0CD1ED3B91B00EB0430 /* selectedWhite.png */; };
+		37B3B0EF1ED3DE2100EB0430 /* SportsChoosenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0ED1ED3DE2100EB0430 /* SportsChoosenTableViewController.swift */; };
+		37B3B0F01ED3DE2100EB0430 /* SportsChoosenTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0EE1ED3DE2100EB0430 /* SportsChoosenTableViewController.xib */; };
+		37B3B0F31ED3DE4100EB0430 /* SportsChoosenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B3B0F11ED3DE4100EB0430 /* SportsChoosenTableViewCell.swift */; };
+		37B3B0F41ED3DE4100EB0430 /* SportsChoosenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B3B0F21ED3DE4100EB0430 /* SportsChoosenTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		371B1DD61ED2D19400236F5E /* App_news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_news.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371B1DD91ED2D19400236F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		371B1DDB1ED2D19400236F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		371B1DDE1ED2D19400236F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		371B1DE01ED2D19400236F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371B1DE31ED2D19400236F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		371B1DE51ED2D19500236F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371B1E031ED2E82A00236F5E /* ConnexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		371B1E051ED2E84200236F5E /* ConnexionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnexionViewController.xib; sourceTree = "<group>"; };
+		371B1E081ED2E95B00236F5E /* ConcetCompte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcetCompte.swift; sourceTree = "<group>"; };
+		371B1E091ED2E95B00236F5E /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		371B1E0B1ED2E95B00236F5E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		37B3B0A81ED2FA2F00EB0430 /* TextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
+		37B3B0AC1ED315F100EB0430 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		37B3B0AE1ED3164C00EB0430 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		37B3B0B71ED399E700EB0430 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		37B3B0B81ED399E700EB0430 /* NewsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewController.xib; sourceTree = "<group>"; };
+		37B3B0BC1ED39CB900EB0430 /* InscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		37B3B0BE1ED39CEB00EB0430 /* InscriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InscriptionViewController.xib; sourceTree = "<group>"; };
+		37B3B0C11ED3A3D800EB0430 /* ChoiceSportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceSportsTableViewController.swift; sourceTree = "<group>"; };
+		37B3B0C21ED3A3D800EB0430 /* ChoiceSportsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoiceSportsTableViewController.xib; sourceTree = "<group>"; };
+		37B3B0C71ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceSportsTableViewCell.swift; sourceTree = "<group>"; };
+		37B3B0C81ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoiceSportsTableViewCell.xib; sourceTree = "<group>"; };
+		37B3B0CC1ED3B91B00EB0430 /* selectedGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedGreen.png; sourceTree = "<group>"; };
+		37B3B0CD1ED3B91B00EB0430 /* selectedWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedWhite.png; sourceTree = "<group>"; };
+		37B3B0ED1ED3DE2100EB0430 /* SportsChoosenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsChoosenTableViewController.swift; sourceTree = "<group>"; };
+		37B3B0EE1ED3DE2100EB0430 /* SportsChoosenTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsChoosenTableViewController.xib; sourceTree = "<group>"; };
+		37B3B0F11ED3DE4100EB0430 /* SportsChoosenTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsChoosenTableViewCell.swift; sourceTree = "<group>"; };
+		37B3B0F21ED3DE4100EB0430 /* SportsChoosenTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsChoosenTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +95,97 @@
 			isa = PBXGroup;
 			children = (
 				371B1DD91ED2D19400236F5E /* AppDelegate.swift */,
-				371B1DDB1ED2D19400236F5E /* ViewController.swift */,
-				371B1DDD1ED2D19400236F5E /* Main.storyboard */,
+				37B3B0A71ED2FA0D00EB0430 /* Autres managers */,
+				371B1DFA1ED2E75A00236F5E /* Connexion */,
+				37B3B0BB1ED39C9800EB0430 /* Inscription */,
+				37B3B0C01ED3A38A00EB0430 /* Choix des sports */,
+				37B3B0E41ED3DD6400EB0430 /* SportsChoosen */,
+				37B3B0CB1ED3B8E300EB0430 /* Images */,
+				37B3B0B01ED399A500EB0430 /* News */,
+				371B1E071ED2E8FC00236F5E /* Coredata */,
 				371B1DE01ED2D19400236F5E /* Assets.xcassets */,
 				371B1DE21ED2D19400236F5E /* LaunchScreen.storyboard */,
 				371B1DE51ED2D19500236F5E /* Info.plist */,
 			);
 			path = App_news;
+			sourceTree = "<group>";
+		};
+		371B1DFA1ED2E75A00236F5E /* Connexion */ = {
+			isa = PBXGroup;
+			children = (
+				371B1E031ED2E82A00236F5E /* ConnexionViewController.swift */,
+				371B1E051ED2E84200236F5E /* ConnexionViewController.xib */,
+			);
+			name = Connexion;
+			sourceTree = "<group>";
+		};
+		371B1E071ED2E8FC00236F5E /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				371B1E081ED2E95B00236F5E /* ConcetCompte.swift */,
+				371B1E091ED2E95B00236F5E /* CoreDataManager.swift */,
+				371B1E0A1ED2E95B00236F5E /* Model.xcdatamodeld */,
+			);
+			name = Coredata;
+			sourceTree = "<group>";
+		};
+		37B3B0A71ED2FA0D00EB0430 /* Autres managers */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0A81ED2FA2F00EB0430 /* TextFieldManager.swift */,
+				37B3B0AC1ED315F100EB0430 /* RequestManager.swift */,
+				37B3B0AE1ED3164C00EB0430 /* SwiftyJSON.swift */,
+			);
+			name = "Autres managers";
+			sourceTree = "<group>";
+		};
+		37B3B0B01ED399A500EB0430 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0B71ED399E700EB0430 /* NewsTableViewController.swift */,
+				37B3B0B81ED399E700EB0430 /* NewsTableViewController.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		37B3B0BB1ED39C9800EB0430 /* Inscription */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0BC1ED39CB900EB0430 /* InscriptionViewController.swift */,
+				37B3B0BE1ED39CEB00EB0430 /* InscriptionViewController.xib */,
+			);
+			name = Inscription;
+			sourceTree = "<group>";
+		};
+		37B3B0C01ED3A38A00EB0430 /* Choix des sports */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0C11ED3A3D800EB0430 /* ChoiceSportsTableViewController.swift */,
+				37B3B0C21ED3A3D800EB0430 /* ChoiceSportsTableViewController.xib */,
+				37B3B0C71ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.swift */,
+				37B3B0C81ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.xib */,
+			);
+			name = "Choix des sports";
+			sourceTree = "<group>";
+		};
+		37B3B0CB1ED3B8E300EB0430 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0CC1ED3B91B00EB0430 /* selectedGreen.png */,
+				37B3B0CD1ED3B91B00EB0430 /* selectedWhite.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		37B3B0E41ED3DD6400EB0430 /* SportsChoosen */ = {
+			isa = PBXGroup;
+			children = (
+				37B3B0ED1ED3DE2100EB0430 /* SportsChoosenTableViewController.swift */,
+				37B3B0EE1ED3DE2100EB0430 /* SportsChoosenTableViewController.xib */,
+				37B3B0F11ED3DE4100EB0430 /* SportsChoosenTableViewCell.swift */,
+				37B3B0F21ED3DE4100EB0430 /* SportsChoosenTableViewCell.xib */,
+			);
+			name = SportsChoosen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +247,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B3B0F41ED3DE4100EB0430 /* SportsChoosenTableViewCell.xib in Resources */,
+				37B3B0BA1ED399E700EB0430 /* NewsTableViewController.xib in Resources */,
+				37B3B0BF1ED39CEB00EB0430 /* InscriptionViewController.xib in Resources */,
+				37B3B0F01ED3DE2100EB0430 /* SportsChoosenTableViewController.xib in Resources */,
+				37B3B0CF1ED3B91B00EB0430 /* selectedWhite.png in Resources */,
+				371B1E061ED2E84200236F5E /* ConnexionViewController.xib in Resources */,
+				37B3B0C41ED3A3D800EB0430 /* ChoiceSportsTableViewController.xib in Resources */,
 				371B1DE41ED2D19400236F5E /* LaunchScreen.storyboard in Resources */,
 				371B1DE11ED2D19400236F5E /* Assets.xcassets in Resources */,
-				371B1DDF1ED2D19400236F5E /* Main.storyboard in Resources */,
+				37B3B0CE1ED3B91B00EB0430 /* selectedGreen.png in Resources */,
+				37B3B0CA1ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +268,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371B1DDC1ED2D19400236F5E /* ViewController.swift in Sources */,
+				371B1E041ED2E82A00236F5E /* ConnexionViewController.swift in Sources */,
+				37B3B0BD1ED39CB900EB0430 /* InscriptionViewController.swift in Sources */,
+				371B1E0C1ED2E95B00236F5E /* ConcetCompte.swift in Sources */,
+				371B1E0E1ED2E95B00236F5E /* Model.xcdatamodeld in Sources */,
+				37B3B0AF1ED3164C00EB0430 /* SwiftyJSON.swift in Sources */,
+				371B1E0D1ED2E95B00236F5E /* CoreDataManager.swift in Sources */,
+				37B3B0F31ED3DE4100EB0430 /* SportsChoosenTableViewCell.swift in Sources */,
+				37B3B0AD1ED315F100EB0430 /* RequestManager.swift in Sources */,
 				371B1DDA1ED2D19400236F5E /* AppDelegate.swift in Sources */,
+				37B3B0EF1ED3DE2100EB0430 /* SportsChoosenTableViewController.swift in Sources */,
+				37B3B0A91ED2FA2F00EB0430 /* TextFieldManager.swift in Sources */,
+				37B3B0C31ED3A3D800EB0430 /* ChoiceSportsTableViewController.swift in Sources */,
+				37B3B0B91ED399E700EB0430 /* NewsTableViewController.swift in Sources */,
+				37B3B0C91ED3B5FF00EB0430 /* ChoiceSportsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		371B1DDD1ED2D19400236F5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				371B1DDE1ED2D19400236F5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		371B1DE21ED2D19400236F5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,8 +437,22 @@
 				371B1DEA1ED2D19500236F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		371B1E0A1ED2E95B00236F5E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				371B1E0B1ED2E95B00236F5E /* Model.xcdatamodel */,
+			);
+			currentVersion = 371B1E0B1ED2E95B00236F5E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 371B1DCE1ED2D19400236F5E /* Project object */;
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Compte" representedClassName="Compte" syncable="YES" codeGenerationType="class">
+        <attribute name="compte_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="compte_id_in_Mongo_BDD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compte_mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compte_montant" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compte_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compte_sports" optional="YES" attributeType="Binary" customClassName="NSArray" syncable="YES"/>
+        <attribute name="compte_user_lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compte_username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Compte" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>
